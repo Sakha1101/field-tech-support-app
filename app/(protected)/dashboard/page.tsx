@@ -20,7 +20,7 @@ export default async function DashboardPage() {
       ? "Admin Home"
       : technician.role === "team_lead"
         ? "Team Lead Home"
-        : `Hello, ${technician.full_name.split(" ")[0]}`;
+        : `Hello${technician.full_name?.trim() ? `, ${technician.full_name.trim().split(" ")[0]}` : ", Technician"}`;
   const description =
     technician.role === "admin"
       ? "Use these admin shortcuts to manage field operations."
