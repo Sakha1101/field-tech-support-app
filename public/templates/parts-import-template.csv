@@ -1,0 +1,3 @@
+category,subcategory,model_name,fg_code,part_name,part_code,short_description,image_url,tags
+Fan,Mechanical,Atomberg Renesa,FG-FAN-001,Motor Assembly,PT-1001,Main motor assembly,https://images.unsplash.com/photo-1581093458791-9d42e5d5df47,motor|fan|assembly
+Mixer Grinder,General,MG Pro 500,FG-MIX-002,Jar Coupler,PT-2001,Replacement coupler for mixer jar,,coupler|mixer|jar
